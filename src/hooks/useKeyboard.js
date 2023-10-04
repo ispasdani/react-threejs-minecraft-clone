@@ -4,9 +4,9 @@ function actionByKey(key) {
     const keyActionsMap = {
         KeyW: 'moveForward',
         KeyS: 'moveBackward',
-        KeyD: 'moveLeft',
-        KeyA: 'moveRight',
-        space: 'jump',
+        KeyD: 'moveRight',
+        KeyA: 'moveLeft',
+        Space: 'jump',
         Digit1: 'dirt',
         Digit2: 'grass',
         Digit3: 'glass',
